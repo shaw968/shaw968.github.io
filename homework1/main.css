@@ -1,0 +1,34 @@
+/*Stephen Shaw
+  CIS 128
+  homework 1
+  main.css
+  January 22, 2019
+*/
+
+body {background-image: url("sunrise.jpg");
+	  background-repeat: no-repeat;
+      background-attachment: fixed;
+	  background-size: cover;
+      font-family: cursive;
+	  font-size: 18px;
+}
+
+h1   {text-align: center;
+      padding: 10px;
+	  font-size: 28px;
+}
+
+h2   {text-align: center;
+      padding: 10px;
+      font-size: 22px;
+}
+
+img {float: left;
+     padding: 10px;
+}
+
+#second {clear: left;
+}
+
+p {padding: 10px;
+}
