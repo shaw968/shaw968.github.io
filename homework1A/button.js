@@ -15,7 +15,7 @@ $(document).ready(function() {
 		{ fontSize: "28px" }, 3000, function(){
 	        $("#pic").animate(
 		      { borderWidth: "2px" }, "fast");
-		      $("h1").css("color", "rgba(106, 90, 205,.7)");
+		      $("h1").css("color", "rgb(0, 0, 179)");
 		    });  
 	});
  });

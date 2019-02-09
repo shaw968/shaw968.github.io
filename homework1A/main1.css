@@ -1,0 +1,88 @@
+/*Stephen Shaw
+  sshaw7@my.smccd.edu
+  CIS 128
+  homework 1
+  main.css
+  January 22, 2019
+*/
+
+html, body, div, h1, h2, p, a, img, ul, li {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;   	
+}
+
+
+body {
+	background: url("stars.jpg") no-repeat fixed; /*image repeat attachment*/
+	background-size: cover;
+    font-family: Arial, Helvitica, sans-serif;
+	/*font-size: 1.2em;*/
+}
+ 
+h1{
+	text-align: center;
+	font-size: 2em;
+	background-color: rgba(230, 255, 255, .7);
+	padding: 1%;
+	margin: 2%;
+	/* border: slateBlue ridge 2px;
+	border-radius: 20px;*/
+}
+
+h2   {
+	text-align: center;
+    font-size: 1.3em;
+	margin: .5%;
+}
+
+img  {
+	float: left;
+    padding: .3em;
+	margin: .3em;
+    border: slateblue ridge 0em;
+	border-radius: 7em;
+}
+
+
+
+p    {
+	padding: .7em;
+}
+
+li   {
+	margin-left: 3em;
+}
+
+#second {
+	clear: left;
+}
+
+#button1 {
+	padding: .7em;
+	background-color: slateblue;
+	font-family: cursive;
+	font-size: 1.2em;
+	color: white;
+	margin-left: 2%;
+	margin-top: 0em;
+	/* border: blue ridge 2px;
+	 border-radius: 15px;*/
+}
+
+#part1, #part2{
+	background-color: rgba(230, 255, 255, .7);
+	margin: 2%;
+	padding: 1%;
+	font-size: 1.2em;
+	/* border: slateBlue ridge 2px;
+	border-radius: 30px;*/
+}
+
+	    
+
+
+	      
