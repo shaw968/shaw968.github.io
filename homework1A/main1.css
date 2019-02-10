@@ -6,6 +6,7 @@
   January 22, 2019
 */
 
+/* some css reset from meyerweb.com */
 html, body, div, h1, h2, p, a, img, ul, li {
         margin: 0;
 	padding: 0;
@@ -68,6 +69,10 @@ li   {
 	border: blue ridge .1em;
 }
 
+#button1:hover {
+  color: red;
+}
+
 
 #part1, #part2, #part3{
 	background-color: rgba(230, 255, 255, .7);
@@ -78,7 +83,7 @@ li   {
 
 
 
-/*from w3 schools tutorial*/
+/*from w3 schools tutorial, colors changed*/
 /* unvisited link */
 a:link {
   color:blue;
