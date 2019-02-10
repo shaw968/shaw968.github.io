@@ -16,7 +16,7 @@ html, body, div, h1, h2, p, a, img, ul, li {
 
 
 body {
-	background: url("stars.jpg") no-repeat fixed; /*image repeat attachment*/
+	background: url("stars1.jpg") no-repeat fixed; /*image repeat attachment*/
 	background-size: cover;
         font-family: Arial, Helvitica, sans-serif;
 }
