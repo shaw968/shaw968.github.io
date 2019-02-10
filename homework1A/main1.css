@@ -26,7 +26,7 @@ h1{
 	font-size: 2em;
 	background-color: rgba(230, 255, 255, .7);
 	padding: 1%;
-	margin: 2%;
+	margin: 1%;
 }
 
 h2   {
@@ -61,9 +61,9 @@ li   {
 #button1 {
 	padding: .3em;
 	background-color: slateblue;
-	font-size: 1.1em;
+	font-size: 1.3em;
 	color: white;
-	margin-left: 2%;
+	margin-left: 1%;
 	margin-top: 0em;
 	/* border: blue ridge 2px;
 	 border-radius: 15px;*/
