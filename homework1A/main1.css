@@ -65,13 +65,13 @@ li   {
 	color: white;
 	margin-left: 1%;
 	margin-top: 0em;
-	/* border: blue ridge 2px;
-	 border-radius: 15px;*/
+	border: blue ridge .1em;
+	border-radius: 1em;
 }
 
 #part1, #part2, #part3{
 	background-color: rgba(230, 255, 255, .7);
-	margin: 2%;
+	margin: 1%;
 	padding: 1%;
 	font-size: 1.2em;
 }
