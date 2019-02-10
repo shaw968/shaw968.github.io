@@ -68,6 +68,7 @@ li   {
 	border: blue ridge .1em;
 }
 
+
 #part1, #part2, #part3{
 	background-color: rgba(230, 255, 255, .7);
 	margin: 1%;
@@ -75,7 +76,23 @@ li   {
 	font-size: 1.2em;
 }
 
-	    
+
+
+/*from w3 schools tutorial*/
+/* unvisited link */
+a:link {
+  color:blue;
+}
+
+/* visited link */
+a:visited {
+  color: darkBlue;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}    
 
 
 	      
