@@ -11,11 +11,12 @@ $(document).ready(function() {
 	$("#button1").click(function() {
 		$("h1").animate( 
 		{ fontSize: "38px" }, 2000)
+		.css("color", "rgb(0, 0, 179)")
 		.animate( 
 		{ fontSize: "28px" }, 3000, function(){
 	        $("#pic").animate(
 		      { borderWidth: "2px" }, "fast");
-		      $("h1").css("color", "rgb(0, 0, 179)");
+		      $("h1").css("color", "rgb(0, 0, 0)");
 		    });  
 	});
  });
