@@ -6,11 +6,11 @@
   January 31, 2019
 */
 
-/*"use strict";*/
+"use strict";
 $(document).ready(function() {
 	$("#button1").click(function() {
 		$("h1").animate( 
-		{ fontSize: "38px" }, 2000)
+		{ fontSize: "38px" }, 3000)
 		.css("color", "rgb(0, 0, 179)")
 		.animate( 
 		{ fontSize: "28px" }, 3000, function(){
