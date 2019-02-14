@@ -16,7 +16,7 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="main1.css">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="button.js"></script>
+    <!--<script src="button.js"></script>-->
 </head>
 
 <body>
@@ -51,5 +51,22 @@
 	    </ul>
 	</div>
 	<button type="button" id="button1">Animate!</button>
+	
+	<script>
+        "use strict";
+        $(document).ready(function() {
+           $("#button1").click(function() {
+	       $("h1").animate( 
+		   { fontSize: "2.5em" }, 3000)
+		   .css("color", "rgb(0, 0, 179)")
+		   .animate( 
+		   { fontSize: "2em" }, 3000, function(){
+	       $("#pic").animate(
+		   { borderWidth: ".15em" }, "fast");
+		   $("h1").css("color", "rgb(0, 0, 0)");
+		 });  
+	   });
+        });
+        </script>
 </body>
 </html>
