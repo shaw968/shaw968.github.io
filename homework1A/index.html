@@ -52,14 +52,13 @@
 	<button type="button" id="button1">Animate!</button>
 	
 	<script>
-        "use strict";
         $(document).ready(function() {
            $("#button1").click(function() {
 	       $("h1").animate( 
-		   { fontSize: "250%" }, 3000)
+		   { fontSize: "2.5em" }, 3000)
 		   .css("color", "rgb(0, 0, 179)")
 		   .animate( 
-		   { fontSize: "200%" }, 3000, function(){
+		   { fontSize: "2em" }, 3000, function(){
 	               $("#pic").animate(
 		       { borderWidth: ".15em" }, "fast");
 		       $("h1").css("color", "rgb(0, 0, 0)");
