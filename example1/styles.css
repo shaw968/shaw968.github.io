@@ -149,9 +149,9 @@ body, .header, .navigation, .footer {
 
 @media screen and (max-width:480px) {
 	
-body, .header, .footer, .navigation {width:320px;} 
+body, .header, .footer, .navigation {width:100%;} 
 .column {margin: 10px 0; border-bottom:1px dashed #7b96bc;} 
-.navigation ul li {width: 106.6667px;}
-#visit, #points, #main {width:320px;}
+.navigation ul li {width: 33.33334375%;}
+#visit, #points, #main {width:100%;}
 
 }
