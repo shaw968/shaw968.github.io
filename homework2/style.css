@@ -118,23 +118,24 @@
 /*-------------------------------------------------------------------------------------------------------------------*/
 
 div.content {
-	  display: flex;
-	  flex-flow: row wrap-reverse;
+	    display: flex;
+	    flex-flow: row wrap-reverse;
     }
 	
 div.col-right{
-		flex: 4 1 auto;
-		display: flex;
-		flex-flow: column;
-		align-items: flex-start;
-		}
+	     flex: 4 1 auto;
+	     display: flex;
+	     flex-flow: column;
+	     align-items: flex-start;
+    }
 		
-	div.sidebar-left{
+div.sidebar-left{
 		flex: 1 1 auto;
-		}
+    }
 	
 @media screen and (max-width:480px) {   .col-right {order: 1;}
                                         .col-right #image {order: -1; padding-bottom: 2%; width: 100%;}
+	                                .col-right h1 {margin-top: 3%;}
 					 h1 {font-size: 1.85em;}
                                         .sidebar-left {order: 0; border: 0px solid black; margin: .5%; width: 100%;}
 					 ul.navigation li{font-size: 16px;}
@@ -143,8 +144,8 @@ div.col-right{
                                          -webkit-border-top-left-radius: 4px;
 		                         -moz-border-radius-topright: 4px;
 		                         -moz-border-radius-topleft: 4px;
-		                          border-top-right-radius: 4px;
-		                          border-top-left-radius: 4px;}
+		                         border-top-right-radius: 4px;
+		                         border-top-left-radius: 4px;}
 					 #burrito {padding-top: 2%; padding-bottom: 2%;}
 	                                 
 										
