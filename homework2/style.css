@@ -135,9 +135,12 @@ div.col-right{
 	
 @media screen and (max-width:480px) {   .col-right {order: 1;}
                                         .col-right #image {order: -1; padding-bottom: 2%; width: 100%;}
-										h1 {font-size: 1.8em;}
+					 h1 {font-size: 1.85em;}
                                         .sidebar-left {order: 0; border: 0px solid black; margin: .5%; width: 100%;}
-										ul.navigation li{font-size: 16px;}
+					 ul.navigation li{font-size: 16px;}
+	                                 #footer {max-width: 85vw;}
+					 #header {max-width: 84vw;}
+					 #burrito {padding-top: 2%; padding-bottom: 2%;}
 										
 	}
 	
@@ -146,9 +149,9 @@ div.col-right{
     }   												  
 	
 @media screen and (min-width:1200px) {   #burrito {padding: 3% 7% 3% 5%;
-                                                  margin:3% 6% 3% 5%;
-	                                              border: 1px solid black;
-												  background-color: #eaf8fb;}
-									     body     {background-color: white;}
+                                                   margin:3% 6% 3% 5%;
+	                                           border: 1px solid black;
+						   background-color: #eaf8fb;}
+						   body     {background-color: white;}
    }
 
