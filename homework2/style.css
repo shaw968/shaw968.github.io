@@ -137,6 +137,7 @@ div.sidebar-left{
 	                                .col-right h1 {margin-top: 3%;}
 					 h1 {font-size: 1.85em;}
                                         .sidebar-left {order: 0; border: 0px solid black; margin: .5%; width: 100%;}
+	                                .sidebar-left ul{margin-top: 1%;}
 					 ul.navigation li{font-size: 16px;}
 	                                 #footer {max-width: 85vw;}
 					 #header {max-width: 85vw;-webkit-border-top-right-radius: 4px;
