@@ -1,9 +1,9 @@
-	/*Stephen Shaw
+   /*Stephen Shaw
     sshaw7@my.smccd.edu
-	CIS 128
-	style.css
-	Homework 2
-	02/28/2019
+    CIS 128
+    style.css
+    Homework 2
+    02/28/2019
     */
 	
 	
@@ -114,49 +114,51 @@
 		width:100%;
 	}
 	
-/*---------------------------------------------------------------------------------------------------*/
-	div.content {
-	  display: flex;
-	  flex-flow: row wrap-reverse;
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+        div.content {                          /*flex container to replace floats and position sidebar depending on window size*/
+	        display: flex;
+	        flex-flow: row wrap-reverse;
     }
-	div.col-right{
+	div.col-right{                         /*used as a flex container to reposition image*/
 		flex: 4 1 auto;
 		display: flex; 
 		flex-flow: column;
     }
 
-    div.sidebar-left{ 
-        flex: 1 1 auto;
+        div.sidebar-left{ 
+                flex: 1 1 auto;
     }
 	
+   /*media query used for phone sized screen*/
 	@media screen and (max-width:480px){.col-right #image {order: -1; padding-bottom: 2%; width: 100%;}
-										.col-right h1 {margin-top: 1%; font-size: 1.6em;}
-                                        .sidebar-left { width: 100%;}
-										.sidebar-left ul{margin-top: 1%;}
-										.sidebar-left p{padding-top: 1%;}
-										ul.navigation li{font-size: 16px;}
-										.list li a{font-size: 1em;}
-										#footer {max-width: 85vw;}
-										#header {max-width: 85vw;
-										-webkit-border-top-right-radius: 4px;
-                                        -webkit-border-top-left-radius: 4px;
-		                                -moz-border-radius-topright: 4px;
-		                                -moz-border-radius-topleft: 4px;
-		                                border-top-right-radius: 4px;
-		                                border-top-left-radius: 4px;}}
-										#burrito {padding-top: 2%; padding-bottom: 2%;}
-										#header h1{font-size: 1.8em;}
+					    .col-right h1 {margin-top: 1%; font-size: 1.6em;}
+                                            .sidebar-left { width: 100%;}
+					    .sidebar-left ul{margin-top: 1%;}
+					    .sidebar-left p{padding-top: 1%;}
+					     ul.navigation li{font-size: 16px;}
+					     .list li a{font-size: 1em;}
+					     #footer {max-width: 85vw;}
+					     #header {max-width: 85vw;
+					     -webkit-border-top-right-radius: 4px;
+                                             -webkit-border-top-left-radius: 4px;
+		                             -moz-border-radius-topright: 4px;
+		                             -moz-border-radius-topleft: 4px;
+		                              border-top-right-radius: 4px;
+		                              border-top-left-radius: 4px;}}
+					      #burrito {padding-top: 2%; padding-bottom: 2%;}
+					      #header h1{font-size: 1.8em;}
 										
 	}
-	
-	@media screen and (min-width: 768px) { #burrito {padding: 3% 7% 3% 5%;}
+    /*media queries used to re-format excessive space*/
+     @media screen and (min-width: 768px) { #burrito {padding: 3% 7% 3% 5%;}
                                                   
-    }  
+       }  
 	
 	@media screen and (min-width:1200px) {   #burrito {padding: 3% 7% 3% 5%;
-                                                  margin:3% 6% 3% 5%;
-	                                              border: 1px solid black;
-												  background-color: #eaf8fb;}
-									     body     {background-color: white;}
-    }
+                                                 margin:3% 6% 3% 5%;
+	                                         border: 1px solid black;
+						 background-color: #eaf8fb;}
+					         body     {background-color: white;}
+       }
 	
