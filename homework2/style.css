@@ -1,16 +1,16 @@
-/*Stephen Shaw
+	/*Stephen Shaw
     sshaw7@my.smccd.edu
 	CIS 128
 	style.css
 	Homework 2
 	02/28/2019
-*/
+    */
 	
 	
 	body, h1, h2, h3, p, img, ul, li{
 		border:0; margin:0; padding:0;
 	}
-			/*the above is a very basic reset rule.  Every browser has a slightly different default for HTML tags.  By using this simple CSS reset, all the more glaring styles 
+		/*the above is a very basic reset rule.  Every browser has a slightly different default for HTML tags.  By using this simple CSS reset, all the more glaring styles 
 		are reset and can now be set to whatever properties that would suit your website best. */
 	
 	body{
@@ -20,10 +20,9 @@
 	}
 		
 	p{
-		letter-spacing:.04em; /*letter spacing sets the horizontal spacing (kerning) between letters in a block of text. */
-		line height:21px; /* line height sets the vertical spacing between lines of text. */
+		letter-spacing:.04em; /* letter spacing sets the horizontal spacing (kerning) between letters in a block of text. */
+		line-height:21px; /* line height sets the vertical spacing between lines of text. */
 		padding-top: 1%;
-		padding-bottom: 1%;
 	}
 		
 	div#header{
@@ -73,17 +72,17 @@
 	
 	div.content{
 		margin:15px auto; /* this adds a margin of 15px to the top and bottom of the div with the class of content.  The auto margin applies to the left and right side of the div which is what centers the div in the middle of the page. */
-		width: 100%;/*originally 900px*/
+		width:100%;
 	}
 				
 	div.col-right{
-		width: 660px;
+		width:660px;
 		padding: 0px 10px 10px 10px;
 		}
 		
 	div.sidebar-left{
-		padding: 10px;
-		/*max-width: 200px;*/
+		padding:0 10px;
+		width:200px;	/* when floating content next to each other, applying set widths will make the content play nice with each other. Change the width of the siebar, or take away the width of the above "div.col-right" and see what happens to get a better idea of how widths effect floats */
 		}
 		
 	div.sidebar-left a{
@@ -99,7 +98,7 @@
 		padding:0 0 20px 15px;	/* adds spacing to the bottom of the list to further divide the content for eaier segragation */
 	}
 	.list li{
-		margin-bottom:10px
+		margin-bottom:10px;
 	}
 	.list li a{
 		font-weight:bold;	/* this makes all anchor classes with .list bold without using <strong>  */
@@ -115,49 +114,49 @@
 		width:100%;
 	}
 	
-/*-------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+	div.content {
+	  display: flex;
+	  flex-flow: row wrap-reverse;
+    }
+	div.col-right{
+		flex: 4 1 auto;
+		display: flex; 
+		flex-flow: column;
+    }
 
-div.content {
-	    display: flex;
-	    flex-flow: row wrap-reverse;
+    div.sidebar-left{ 
+        flex: 1 1 auto;
     }
 	
-div.col-right{
-	     flex: 4 1 auto;
-	     display: flex;
-	     flex-flow: column;
-    }
-		
-div.sidebar-left{
-		flex: 1 1 auto;
-    }
+	@media screen and (max-width:480px){.col-right #image {order: -1; padding-bottom: 2%; width: 100%;}
+										.col-right h1 {margin-top: 1%; font-size: 1.6em;}
+                                        .sidebar-left { width: 100%;}
+										.sidebar-left ul{margin-top: 1%;}
+										.sidebar-left p{padding-top: 1%;}
+										ul.navigation li{font-size: 16px;}
+										.list li a{font-size: 1em;}
+										#footer {max-width: 85vw;}
+										#header {max-width: 85vw;
+										-webkit-border-top-right-radius: 4px;
+                                        -webkit-border-top-left-radius: 4px;
+		                                -moz-border-radius-topright: 4px;
+		                                -moz-border-radius-topleft: 4px;
+		                                border-top-right-radius: 4px;
+		                                border-top-left-radius: 4px;}}
+										#burrito {padding-top: 2%; padding-bottom: 2%;}
+										#header h1{font-size: 1.8em;}
+										
+	}
 	
-@media screen and (max-width:480px) {   .col-right {order: 1;}
-                                        .col-right #image {order: -1; padding-bottom: 2%; width: 100%;}
-	                                .col-right h1 {margin-top: 3%; font-size: 1.6em;}
-                                        .sidebar-left {order: 0; border: 0px solid black; margin: .5%; width: 100%;}
-	                                .sidebar-left ul{margin-top: 1%;}
-					 ul.navigation li{font-size: 16px;}
-	                                 #footer {max-width: 85vw;}
-					 #header {max-width: 85vw;-webkit-border-top-right-radius: 4px;
-                                         -webkit-border-top-left-radius: 4px;
-		                         -moz-border-radius-topright: 4px;
-		                         -moz-border-radius-topleft: 4px;
-		                         border-top-right-radius: 4px;
-		                         border-top-left-radius: 4px;}
-	                                 #header h1{font-size: 1.8em;}
-					 #burrito {padding-top: 2%; padding-bottom: 2%;}
-	                                 .list li a {font-size: 1em;}
-    }
-	
-@media screen and (min-width: 768px) { #burrito {padding: 3% 7% 3% 5%;}
+	@media screen and (min-width: 768px) { #burrito {padding: 3% 7% 3% 5%;}
                                                   
-    }   												  
+    }  
 	
-@media screen and (min-width:1200px) {   #burrito {padding: 3% 7% 3% 5%;
-                                                   margin:3% 6% 3% 5%;
-	                                           border: 1px solid black;
-						   background-color: #eaf8fb;}
-						   body     {background-color: white;}
-   }
-
+	@media screen and (min-width:1200px) {   #burrito {padding: 3% 7% 3% 5%;
+                                                  margin:3% 6% 3% 5%;
+	                                              border: 1px solid black;
+												  background-color: #eaf8fb;}
+									     body     {background-color: white;}
+    }
+	
