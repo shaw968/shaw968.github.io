@@ -165,13 +165,10 @@
   /*css animation*/
   @keyframes animator {
          0% {font-size: 1em; 
-		       color: white;
-		 }
-		 33% {font-size: 1.3em;
-		     color: red;
-		 }
-		 67% {color: lightblue;
-		 }
+             color: white;}
+	 33% {font-size: 1.1em;
+	     color: red;}
+	 67% {color: lightblue;}
   }
 
  #header {animation-name: animator;
