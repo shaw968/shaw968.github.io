@@ -166,8 +166,8 @@
   @keyframes animator {
          0% {color: white;}
 	 33% {font-size: .8em;
-	     color: pink;}
-	 67% {color: green;}
+	     color: salmon;}
+	 67% {color: deepseagreen;}
   }
 
  #header {animation-name: animator;
