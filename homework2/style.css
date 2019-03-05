@@ -167,7 +167,7 @@
          0% {color: white;}
 	 33% {font-size: .8em;
 	     color: salmon;}
-	 67% {color: deepseagreen;}
+	 67% {color: darkseagreen;}
   }
 
  #header {animation-name: animator;
