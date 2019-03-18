@@ -1,0 +1,25 @@
+/*Stephen Shaw
+  sshaw7@my.smccd.edu
+  CIS 128
+  mobile.css
+  Short Task 1
+  03/17/2019
+*/
+
+body {
+      font-size: 1.2em;
+	  background-color: cornflowerBlue;
+}
+
+h2, h2+p, div {
+	  background-color: #eaf8fb;
+	  border-right: 10px outset silver;
+	  border-bottom: 10px outset silver;
+	  border-top: 5px outset silver;
+	  border-left: 5px outset silver;
+	  padding: 10px;
+}
+
+dt {
+	font-style: oblique;
+}
