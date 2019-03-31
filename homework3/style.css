@@ -1,0 +1,29 @@
+/*  Stephen Shaw
+    sshaw7@my.smccd.edu
+	CIS 128
+	style.css
+	Homework 3
+	03/31/20
+*/
+
+
+header { font-size: 1.7em;
+         font-family: "Times New Roman", Times, serif;
+         background-image: url("images/ABC-blocks.jpg");
+		 background-position: right;
+		 animation-name: slideRight;
+         animation-duration: 25s;
+}
+
+header h1 { color: darkBlue; }
+
+img { float: right;
+      height: 110px;
+	  padding-left: 5px;
+	  margin-top: 15px;
+}
+
+@keyframes slideRight {
+  from {background-position: left;}
+  to {background-position: right;}
+}
