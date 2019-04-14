@@ -1,0 +1,41 @@
+/*  Stephen Shaw
+    sshaw7@my.smccd.edu
+	CIS 128
+	style.css
+	Homework 4 part 1
+	04/13/2019
+*/
+
+
+header { font-size: 1.8em;
+         font-family: "Times New Roman", Times, serif;
+         background-image: url("images/shield_horse1.jpg");
+		 background-position: right;
+		 animation-name: slideRight;
+         animation-duration: 25s;
+}
+
+header h1 { color: lightBlue; }
+
+.product { margin-bottom: 1em;
+	  padding-right: 1em;
+	  float: left;
+      max-height: 3.5em;
+}
+
+h3 {
+	    clear: left;
+}
+
+
+div.wrapper { height: 7em; }
+
+
+@keyframes slideRight {
+  from {background-position: left;}
+  to {background-position: right;}
+}
+
+#myspot { font-size: 1.3em;
+          color: darkBlue;
+}

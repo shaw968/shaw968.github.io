@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Stephen Shaw
+    sshaw7@my.smccd.edu
+	CIS 128
+	index.html
+	Homework 4 part 1
+	04/13/2019
+-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description"  content="ABC Toys">
+  <title>ABC Toys</title>
+  <link rel="stylesheet" href="themes/myTheme.css" />
+  <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+<!--Page 1--> 
+<div data-role="page" id="page1"  data-theme="d">
+  <header data-role="header" data-position="fixed">
+    <h1>ABC Toys</h1>
+  </header>
+  <div data-role="content">
+    <h3>Making learning fun</h3>
+    <p>ABC Toys is a company that opened its doors in 2001 and it has kept its mission for all those years.</p>
+    <p>The mission of our company is to create toys that are safe for kindergarten kids but that challenge the kids' mind and motor skills making learning a fun task.</p>
+    <p>By the way, parents love our toys too.</p>
+  </div>
+  <footer data-role="footer" data-position="fixed">
+    <nav data-role="navbar">
+	  <ul>
+	    <li><a href="#page2" class="ui-btn" data-transition="slide">Products</a></li>
+	    <li><a href="#page3" class="ui-btn" data-transition="slide">Contact Us</a></li>
+	    <li><a href="#page4" class="ui-btn" data-transition="slide">Location</a></li>
+	  </ul>
+	 </nav>
+  </footer>
+</div><!--End of page 1-->
+
+<!--Page 2-->
+<div data-role="page" id="page2" data-transition="slide" data-theme="d" >
+  <header data-role="header">
+    <h1>ABC Toys</h1>
+  </header>
+  <div data-role="content">
+     <div data-role="collapsible"  data-collapsed-icon="info">
+	   <h3>Our Toys</h3>
+	     <div data-role="collapsible" data-collapsed-icon="info" class="wrapper">
+		     <h3>Checkers, Chess, Chinese Checkers</h3>
+			 <img src="images/chineseCheckers.jpg" alt="Chinese Checkers" class="product">
+			 <p>My childhood favorite! For ages 6 and up.</p>
+	     </div>
+		 <div data-role="collapsible" data-collapsed-icon="info" class="wrapper">
+		     <h3>IQ Stars</h3>
+			 <img src="images/iQStars.jpg" alt="IQ Stars" class="product">
+			 <p>120 skill building challenges for ages 6 and up.</p>
+		 </div>
+		 <div data-role="collapsible" data-collapsed-icon="info" class="wrapper">
+		     <h3>Jumanji</h3>
+			 <img src="images/jumanji.jpg" alt="Jumanji" class="product">
+			 <p>Designed to make kids disappear!</p>
+	     </div>
+		 <div data-role="collapsible" data-collapsed-icon="info" class="wrapper">
+		     <h3>Lego Classic</h3>
+			 <img src="images/lego.jpg" alt="Lego" class="product">
+			 <p>Build almost anything! For ages 5 and up.</p>
+	     </div>
+		 <div data-role="collapsible" data-collapsed-icon="info" class="wrapper">
+		     <h3>QBAmaze</h3>
+			 <img src="images/qbamaze.jpg" alt="QBAmaze" class="product">
+			 <p>For budding engineers ages 6 and up.</p>
+	     </div>
+	 </div>
+  </div>
+  <footer data-role="footer" data-position="fixed">
+    <nav data-role="navbar">
+	  <ul>
+	    <li><a href="#page1" class="ui-btn" data-transition="slide">Home</a></li>
+	    <li><a href="#page3" class="ui-btn" data-transition="slide">Contact Us</a></li>
+	    <li><a href="#page4" class="ui-btn" data-transition="slide">Location</a></li>
+	  </ul>
+	 </nav>
+  </footer>
+</div><!--End of page 2-->
+
+<!--Page 3-->
+<div data-role="page" id="page3" data-transition="slide" data-theme="d">
+  <header data-role="header" data-position="fixed">
+    <h1>ABC Toys</h1>
+  </header>
+  <div data-role="content">
+    <h3>ABC Contact Information</h3>
+	<ul>
+	   <li><a href="#">ABCtoys@gmail.com</a></li>
+	   <li>510-999-9999</li>
+	   <li>123 Main Street, Emeryville</li>
+	   <li><a href="#">ABC Toys on Facebook</a></li>
+	</ul>
+	<h3>Your Information</h3>
+	<form method="get" action="#">
+	  <fieldset class="ui-field-contain">
+	    <label for="#yourName">Name</label>
+	    <input type="text" name="name" id="yourName" placeholder=""/>
+		<label for="#email">Email</label>
+	    <input type="email" name="email" id="email" placeholder=""/>
+		<label for="#comment">Comment</label>
+		<textarea id="comment" placeholder=""></textarea>
+		<label></label>
+		<input type="submit" value="Submit"/>
+		<!--<input type="text" name="name" id="yourName" placeholder="Name"/>
+		<input type="email" name="email" id="email" placeholder="Email"/>
+		<textarea id="comment" placeholder="Comments"></textarea>
+		<input type="submit" value="Submit" disabled />-->
+	  </fieldset>
+	</form>
+  </div>
+  <footer data-role="footer" data-position="fixed">
+    <nav data-role="navbar">
+	  <ul>
+	    <li><a href="#page1" class="ui-btn" data-transition="slide">Home</a></li>
+	    <li><a href="#page2" class="ui-btn" data-transition="slide">Products</a></li>
+	    <li><a href="#page4" class="ui-btn" data-transition="slide">Location</a></li>
+	  </ul>
+	 </nav>
+  </footer>
+</div><!--End of page 3-->
+
+<!--Page 4-->
+<div data-role="page" id="page4" data-transition="slide" data-theme="d">
+  <header data-role="header" data-position="fixed">
+    <h1>ABC Toys</h1>
+  </header>
+  <div data-role="content">
+    <p id="myspot">Your location is...</p>
+	<p id="map"></p>
+	<script>
+	    $("[href='#page4']").on("click", function(){
+            navigator.geolocation.getCurrentPosition(spot, noSpot);
+			function spot (position) {
+			    var location = position.coords;
+				var coordinates = position.coords.latitude+","+position.coords.longitude;
+				$("#myspot").html("Latitude: " + location.latitude + "</br> Longitude: " + location.longitude);
+				var image = "https://maps.googleapis.com/maps/api/staticmap?center="+coordinates+"&zoom=14&size=400x300&markers="+coordinates+"&key=AIzaSyBU0AH3XQZ5EIun1zvZ4zrLuEp3A8Vudfg";
+				$("#map").html("<img src='"+image+"' alt='map'>");
+		     };
+			 
+			function noSpot (error) { alert("We can't find you!");}
+        });
+	</script>
+	</div>
+ <footer data-role="footer" data-position="fixed">
+    <nav data-role="navbar">
+	  <ul>
+	    <li><a href="#page1" class="ui-btn" data-transition="slide">Home</a></li>
+	    <li><a href="#page2" class="ui-btn" data-transition="slide">Products</a></li>
+	    <li><a href="#page3" class="ui-btn" data-transition="slide">Contact Us</a></li>
+	  </ul>
+	 </nav>
+  </footer>
+</div><!--End of page 4-->
+
+</body>
+
+</html>
