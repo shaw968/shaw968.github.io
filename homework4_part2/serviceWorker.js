@@ -12,7 +12,8 @@ var cachedFiles = ["index.html", "style.css", "lightblue.jpg", "lightgold.jpg", 
 self.oninstall = function(event) {
 	console.log("installed");
 	caches.open(cacheVersion).then(function(cache) {
-	    cache.addAll(cachedFiles)};
+	    cache.addAll(cachedFiles)
+	)};
 }
 
 self.onactivate = function(event) {
