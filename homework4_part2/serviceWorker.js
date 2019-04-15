@@ -27,7 +27,7 @@ self.onfetch = function(event) {
 	event.respondWith(
 	    fetch(event.request).catch(function(caches){
 			caches.match(event.request)
-		});
+		})
 	)
 }
 
