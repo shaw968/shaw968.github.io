@@ -23,7 +23,7 @@ self.onactivate = function(event) {
 //self.onfetch = function(event) {}
 
 self.onfetch = function(event) {
-	console.log('fetching");
+	console.log("fetching");
 	event.respondWith(
 	    fetch(event.request).catch(function(caches){
 			caches.match(event.request)
