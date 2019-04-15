@@ -1,0 +1,23 @@
+/*  Stephen Shaw
+    sshaw7@my.smccd.edu
+	CIS 128
+	style.css
+	Homework 4 part 2
+	04/15/2019
+*/
+
+
+#dropdown { postion: relative;
+            
+}
+#dropdown-content { display: none;
+                    width: 100px;
+					background-color: #f9f9f9;
+					position: absolute;
+}
+
+#dropdown:hover #dropdown-content {
+  display: block;
+}
+
+img { margin-left: 5px;}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Stephen Shaw
+    sshaw7@my.smccd.edu
+	CIS 128
+	index.html
+	Homework 4 part 2
+	04/13/2019
+-->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description"  content="PWA Characteristics">
+  <title>Stephen Shaw PWA Stuff</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body id="wrap">
+    <h1>PWA Characteristics</h1>
+	<p>Stuff about progressive web applications.</p>
+	<p>More stuff about progressive web applications.</p>
+	<div id="dropdown">
+	  <button>Select Your Background<img src="downArrow.png"/></button>
+      <div id="dropdown-content">    
+		<a href="#" onclick="blue()">Light Blue</a>
+        <a href="#" onclick="gold()">Light Gold</p>
+	  </div>
+	</div>
+	
+	<script>
+	    if(navigator.serviceWorker) {
+           navigator.serviceWorker.register('serviceworker.js');
+		}
+		function blue() { document.getElementById('wrap').style.backgroundImage='url(lightblue.jpg)';}
+		function gold() { document.getElementById('wrap').style.backgroundImage='url(lightgold.jpg)';}
+    </script>
+</body>
+
+</html>
+
