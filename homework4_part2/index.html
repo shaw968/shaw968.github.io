@@ -19,22 +19,22 @@
 
 <body id="wrap">
     <h1>PWA Characteristics</h1>
-	<p>Stuff about progressive web applications.</p>
-	<p>More stuff about progressive web applications.</p>
-	<div id="dropdown">
-	  <button>Select Your Background<img src="downArrow.png"/></button>
+    <p>Stuff about progressive web applications.</p>
+    <p>More stuff about progressive web applications.</p>
+    <div id="dropdown">
+      <button>Select Your Background<img src="downArrow.png"/></button>
       <div id="dropdown-content">    
-		<a href="#" onclick="blue()">Light Blue</a>
-        <a href="#" onclick="gold()">Light Gold</p>
-	  </div>
-	</div>
+        <a href="#" onclick="blue()">Light Blue</a>
+        <a href="#" onclick="gold()">Light Gold</a>
+      </div>
+     </div>
 	
-	<script>
-	    if(navigator.serviceWorker) {
-           navigator.serviceWorker.register('serviceworker.js');
-		}
-		function blue() { document.getElementById('wrap').style.backgroundImage='url(lightblue.jpg)';}
-		function gold() { document.getElementById('wrap').style.backgroundImage='url(lightgold.jpg)';}
+     <script>
+       if(navigator.serviceWorker) {
+          navigator.serviceWorker.register('serviceworker.js');
+       }
+       function blue() { document.getElementById('wrap').style.backgroundImage='url(lightblue.jpg)';}
+       function gold() { document.getElementById('wrap').style.backgroundImage='url(lightgold.jpg)';}
     </script>
 </body>
 
