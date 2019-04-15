@@ -20,5 +20,14 @@ self.onactivate = function(event) {
 	console.log("activated");
 }
 
-self.onfetch = function(event) {}
+//self.onfetch = function(event) {}
+
+self.onfetch = function(event) {
+	console.log('fetching");
+	event.respondWith(
+	    fetch(event.request).catch(function(caches){
+			caches.match(event.request)
+		});
+	)
+}
 
