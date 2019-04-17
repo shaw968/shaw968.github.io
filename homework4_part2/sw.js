@@ -13,11 +13,11 @@ self.oninstall = function(event) {
 	console.log("installed");
 	caches.open(cacheVersion).then(function(cache) {
 	    cache.addAll(cachedFiles);
-})
+});
 
 self.onactivate = function(event) {
 	console.log("activated");
-}
+};
 
 self.onfetch = function(event) {
 	console.log("fetching");
@@ -25,4 +25,4 @@ self.onfetch = function(event) {
 	    caches.match(event.request)
 		.then(function(response) {return response || fetch(event.request);})
 	);
-}
+};
