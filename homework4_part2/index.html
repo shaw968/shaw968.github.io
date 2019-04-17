@@ -3,10 +3,10 @@
 
 <!--Stephen Shaw
     sshaw7@my.smccd.edu
-	CIS 128
-	index.html
-	Homework 4 part 2
-	04/13/2019
+    CIS 128
+    index.html
+    Homework 4 part 2
+    04/13/2019
 -->
 
 <head>
@@ -27,18 +27,18 @@
 	</ul>
 	<div id="dropdown">
 	  <button type="button">Select Your Background<img src="images/downArrow.png"/></button>
-      <div id="dropdown-content">    
-		<a href="#" onclick="blue()">Light Blue</a>
-        <a href="#" onclick="gold()">Light Gold</p>
+          <div id="dropdown-content">    
+	      <a href="#" onclick="blue()">Light Blue</a>
+              <a href="#" onclick="gold()">Light Gold</a>
 	  </div>
 	</div>
 	
 	<script>
 	    if(navigator.serviceWorker) {
-           navigator.serviceWorker.register('sw.js');
-		}
-		function blue() { document.getElementById('wrap').style.backgroundImage='url(images/lightblue.jpg)';}
-		function gold() { document.getElementById('wrap').style.backgroundImage='url(images/lightgold.jpg)';}
+                  navigator.serviceWorker.register('sw.js');
+	       }
+	    function blue() { document.getElementById('wrap').style.backgroundImage='url(images/lightblue.jpg)';}
+	    function gold() { document.getElementById('wrap').style.backgroundImage='url(images/lightgold.jpg)';}
     </script>
 </body>
 
