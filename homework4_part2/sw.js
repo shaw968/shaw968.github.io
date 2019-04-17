@@ -6,7 +6,7 @@
     04/13/2019
 */
 var cacheVersion = "ver-1";
-var cachedFiles = ["index.html", "style.css", "manifest.json", 
+var cachedFiles = ["index.html", "style.css", 
 		   "images/lightblue.jpg", "images/lightgold.jpg", "images/downArrow.png", "images/margarita.png"];
 
 
