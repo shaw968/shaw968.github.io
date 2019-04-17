@@ -21,8 +21,4 @@ self.onactivate = function(event) {
 
 self.onfetch = function(event) {
 	console.log("fetching");
-	event.respondWith(
-	    caches.match(event.request)
-		.then(function(response) {return response || fetch(event.request);})
-	);
 };
