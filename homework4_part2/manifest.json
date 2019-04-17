@@ -1,12 +1,12 @@
 {
     "short_name": "PWA",
-	"name": "Progressive Web Apps",
-	"icons": [
-	    {
-		    "src": "images/margarita.png",
-			"type": "image/png",
-			"sizes": "48x48"
-		}
-	],
-	"start_url": "index.html"
+    "name": "Progressive Web Apps",
+    "icons": [
+        {
+           "src": "images/margarita.png",
+	   "type": "image/png",
+	   "sizes": "48x48"
+	}
+     ],
+    "start_url": "index.html"
 }
