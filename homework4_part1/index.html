@@ -3,10 +3,10 @@
 
 <!--Stephen Shaw
     sshaw7@my.smccd.edu
-	CIS 128
-	index.html
-	Homework 4 part 1
-	04/13/2019
+    CIS 128
+    index.html
+    Homework 4 part 1
+    04/13/2019
 -->
 <head>
   <meta charset="UTF-8" />
@@ -148,7 +148,7 @@
 			    var location = position.coords;
 				var coordinates = position.coords.latitude+","+position.coords.longitude;
 				$("#myspot").html("Latitude: " + location.latitude + "</br> Longitude: " + location.longitude);
-				var image = "https://maps.googleapis.com/maps/api/staticmap?center="+coordinates+"&zoom=14&size=400x300&markers="+coordinates+"&key=AIzaSyBU0AH3XQZ5EIun1zvZ4zrLuEp3A8Vudfg";
+				var image = "https://maps.googleapis.com/maps/api/staticmap?center="+coordinates+"&zoom=14&size=300x220&markers="+coordinates+"&key=AIzaSyBU0AH3XQZ5EIun1zvZ4zrLuEp3A8Vudfg";
 				$("#map").html("<img src='"+image+"' alt='map'>");
 		     };
 			 
