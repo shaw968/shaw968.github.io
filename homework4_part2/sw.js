@@ -13,7 +13,7 @@ self.oninstall = function(event) {
 	console.log("installed");
 	caches.open(cacheVersion).then(function(cache) {
 	    cache.addAll(cachedFiles);
-}
+})
 
 self.onactivate = function(event) {
 	console.log("activated");
