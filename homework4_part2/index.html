@@ -3,10 +3,10 @@
 
 <!--Stephen Shaw
     sshaw7@my.smccd.edu
-	CIS 128
-	index.html
-	Homework 4 part 2
-	04/13/2019
+    CIS 128
+    index.html
+    Homework 4 part 2
+    04/13/2019
 -->
 
 <head>
@@ -22,23 +22,23 @@
     <h1>PWA Characteristics</h1>
 	<ul>
 	    <li><p>Http caching</p></li>
-		<li><p>Web push notifications</p></li>
-		<li><p>Web App Manifest</p></li>
+	    <li><p>Web push notifications</p></li>
+	    <li><p>Web App Manifest</p></li>
 	</ul>
-	<div id="dropdown">
-	  <button type="button">Select Your Background<img src="downArrow.png"/></button>
-      <div id="dropdown-content">    
-		<a href="#" onclick="blue()">Light Blue</a>
-        <a href="#" onclick="gold()">Light Gold</a>
-	  </div>
-	</div>
+    <div id="dropdown">
+    <button type="button">Select Your Background<img src="downArrow.png"/></button>
+       <div id="dropdown-content">    
+          <a href="#" onclick="blue()">Light Blue</a>
+          <a href="#" onclick="gold()">Light Gold</a>
+       </div>
+     </div>
 	
-	<script>
-	    if(navigator.serviceWorker) {
-           navigator.serviceWorker.register('sw.js');
-		}
-		function blue() { document.getElementById('wrap').style.backgroundImage='url(lightblue.jpg)';}
-		function gold() { document.getElementById('wrap').style.backgroundImage='url(lightgold.jpg)';}
+     <script>
+         if(navigator.serviceWorker) {
+              navigator.serviceWorker.register('sw.js');
+	   }
+         function blue() { document.getElementById('wrap').style.backgroundImage='url(lightblue.jpg)';}
+	 function gold() { document.getElementById('wrap').style.backgroundImage='url(lightgold.jpg)';}
     </script>
 </body>
 
