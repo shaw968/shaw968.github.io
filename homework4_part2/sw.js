@@ -5,15 +5,16 @@
     Homework 4 part 2
     04/13/2019
 */
-var cacheVersion = "ver-2"
-var cachedFiles = ["index.html", "style.css", "lightblue.jpg", "lightgold.jpg", "downArrow.png", "margarita.png"]
+var cacheVersion = "ver-2";
+var cachedFiles = ["index.html", "style.css", "lightblue.jpg", "lightgold.jpg", "downArrow.png", "margarita.png"];
 
 
 self.oninstall = function(event) {
 	console.log("installed");
 	caches.open(cacheVersion).then(function(cache) {
 	    cache.addAll(cachedFiles);
-})
+	});
+}
 
 self.onactivate = function(event) {
 	console.log("activated");
