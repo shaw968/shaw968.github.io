@@ -6,8 +6,10 @@
 		    "src": "margarita.png",
 		    "type": "image/png",
 		    "sizes": "144x144",
-		    "display": "minimal-ui"
               }
 	],
-	"start_url": "index.html"
+	"start_url": "index.html",
+	"display": "minimal-ui",
+	"background_color": "#3367D6",
+	"theme_color": "#3367D6"
 }
