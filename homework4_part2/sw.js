@@ -6,7 +6,7 @@
     04/13/2019
 */
 var cacheVersion = "ver-2";
-var cachedFiles = ["index.html", "style.css", "lightblue.jpg", "lightgold.jpg", "downArrow.png", "margarita.png"];
+var cachedFiles = ["index.html", "style.css", "lightblue.jpg", "lightgold.jpg", "downArrow.png", "margarita.png", "manifest.json"];
 
 
 self.oninstall = function(event) {
