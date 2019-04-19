@@ -30,7 +30,9 @@ img { margin-left: 5px;}
 
 button { padding: 5px;}
 
-h1, h2 { margin-bottom: 0px; }
+h1, h2 { margin-bottom: 0px;
+         font-size: .8em;
+}
 
 ul { margin-top: 5px; }
 
