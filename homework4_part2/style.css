@@ -26,13 +26,13 @@ img { margin-left: 5px;}
 #wrap { background-size: cover;
         background-repeat: no-repeat;
 	height: 730px;
+	font-size: .9em;
 }
 
 button { padding: 5px;}
 
 h1, h2 { margin-bottom: 0px;
-         font-size: .9em;
-}
+         }
 
 ul { margin-top: 5px; }
 
