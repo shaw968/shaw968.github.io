@@ -7,7 +7,7 @@
 */
 var cacheVersion = "ver-2";
 var cachedFiles = ["index.html", "style.css", "lightblue.jpg", "lightgold.jpg", 
-		   "downArrow.png", "margarita.png", "manifest.json", "lighthouse.html"];
+		   "downArrow.png", "margarita.png", "margarita192.png", "margarita512.png", "manifest.json", "lighthouse.html"];
 
 
 self.oninstall = function(event) {
