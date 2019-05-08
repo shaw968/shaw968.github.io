@@ -1,0 +1,76 @@
+/*  Stephen Shaw
+    sshaw7@my.smccd.edu
+	CIS 114 OL
+	slideshow.css
+	Midterm 1
+	02/28/2018
+*/
+
+
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 80vw;
+    margin: 7% auto;
+    padding: .2em;
+	color: blue;
+	background: url("images/teaSet.jpg") no-repeat 50% 50% fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+
+           
+
+.wrapper { background-color: paleTurquoise;
+           border-width: 5px;
+	       border-color: silver;
+	       border-style: outset;
+	       border-radius: 10px; 
+}
+
+img { padding: 5px;
+      width: 80%;
+}
+
+h1 {
+	font-size: 95%;
+    margin: 0;
+    padding: 0 0 1em 0;
+    text-align: center;
+}
+h2 {
+	font-size: 120%;
+	margin-top: .5em;
+	margin-bottom: 0;
+    text-align: center;
+}
+p {
+    margin: 0;
+    padding: .5em;
+    text-align: center;	
+}
+
+ul {
+    display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+[type="button"] { width: 20%;
+				  border-radius: 10px;
+ }
+
+button { margin-left: 10%; }
+
+header, #caption { margin-bottom: 3%; }
+
+
+
+
+
+
+

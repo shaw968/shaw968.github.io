@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+xmlns:gap = "http://phonegap.com/ns/1.0"
+id = "io.github.shaw968"
+version = "1.0.0">
+<access origin="*" />
+<name>Steve's App</name>
+<description>Short Task 2 Test</description>
+<author href="#" email="sshaw7@smccd.edu">Stephen Shaw</author>
+<plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
+<plugin name="cordova-plugin-geolocation" spec="~4.0.1" />
+</widget>
